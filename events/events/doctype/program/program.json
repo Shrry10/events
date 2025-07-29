@@ -157,8 +157,13 @@
  "grid_page_length": 50,
  "image_field": "banner_image",
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2025-07-29 16:54:10.544148",
+ "links": [
+  {
+   "link_doctype": "Program Sponsor",
+   "link_fieldname": "program"
+  }
+ ],
+ "modified": "2025-07-29 17:11:20.195555",
  "modified_by": "Administrator",
  "module": "Events",
  "name": "Program",
