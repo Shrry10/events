@@ -10,7 +10,8 @@
   "program",
   "booking",
   "column_break_blsw",
-  "ticket_type"
+  "ticket_type",
+  "amended_from"
  ],
  "fields": [
   {
@@ -54,18 +55,30 @@
    "label": "Ticket Type",
    "options": "Program Ticket Type",
    "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Program Ticket",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-07-29 20:58:57.155381",
+ "modified": "2025-07-29 21:36:01.553024",
  "modified_by": "Administrator",
  "module": "Ticketing",
  "name": "Program Ticket",
  "owner": "Administrator",
  "permissions": [
   {
+   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -74,7 +87,24 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
    "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Program Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],
