@@ -1,7 +1,7 @@
 {
  "app": "events",
  "charts": [],
- "content": "[{\"id\":\"2hO9rJsy7M\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Events</span>\",\"col\":12}},{\"id\":\"LeXotigynf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create New Program\",\"col\":4}},{\"id\":\"YhH2_xNTT9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Programs\",\"col\":4}},{\"id\":\"49SsdTQD0c\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hosts\",\"col\":4}},{\"id\":\"D74256HxDe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZG1ETNegvw\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Programs This Month\",\"col\":4}}]",
+ "content": "[{\"id\":\"2hO9rJsy7M\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Events</span>\",\"col\":12}},{\"id\":\"LeXotigynf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create New Program\",\"col\":4}},{\"id\":\"YhH2_xNTT9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Programs\",\"col\":4}},{\"id\":\"49SsdTQD0c\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hosts\",\"col\":4}},{\"id\":\"D74256HxDe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZG1ETNegvw\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Programs This Month\",\"col\":4}},{\"id\":\"PXSAZEsilb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"NQ-uuU6z3-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bookings\",\"col\":4}},{\"id\":\"M29YKU7XQE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tickets\",\"col\":4}}]",
  "creation": "2025-07-29 17:16:31.018115",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +15,7 @@
  "label": "Events",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-07-29 17:24:42.252367",
+ "modified": "2025-07-29 21:03:03.274191",
  "modified_by": "Administrator",
  "module": "Events",
  "name": "Events",
@@ -50,12 +50,29 @@
    "type": "DocType"
   },
   {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Done",
+   "label": "Bookings",
+   "link_to": "Program Booking",
+   "stats_filter": "[[\"Program Booking\",\"docstatus\",\"=\",\"1\",false]]",
+   "type": "DocType"
+  },
+  {
    "color": "Green",
    "doc_view": "List",
    "format": "{} Published",
    "label": "Programs",
    "link_to": "Program",
    "stats_filter": "[[\"Program\",\"is_published\",\"=\",1,false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Tickets",
+   "link_to": "Program Ticket",
+   "stats_filter": "[]",
    "type": "DocType"
   }
  ],
