@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-29 15:55:47.857713",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "speaker_details_section",
+  "speaker",
+  "social_media_links"
+ ],
+ "fields": [
+  {
+   "fieldname": "speaker_details_section",
+   "fieldtype": "Section Break",
+   "label": "Speaker Details"
+  },
+  {
+   "fieldname": "speaker",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Speaker",
+   "options": "Speaker Profile",
+   "reqd": 1
+  },
+  {
+   "fieldname": "social_media_links",
+   "fieldtype": "Table",
+   "label": "Social Media Links",
+   "options": "Social Media Link"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-29 16:36:55.315333",
+ "modified_by": "Administrator",
+ "module": "Events",
+ "name": "Talk Speaker",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
