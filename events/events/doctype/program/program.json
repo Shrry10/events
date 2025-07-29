@@ -161,9 +161,21 @@
   {
    "link_doctype": "Program Sponsor",
    "link_fieldname": "program"
+  },
+  {
+   "link_doctype": "Program Ticket Type",
+   "link_fieldname": "program"
+  },
+  {
+   "link_doctype": "Program Booking",
+   "link_fieldname": "program"
+  },
+  {
+   "link_doctype": "Program Ticket",
+   "link_fieldname": "program"
   }
  ],
- "modified": "2025-07-29 17:11:20.195555",
+ "modified": "2025-07-29 20:07:57.208166",
  "modified_by": "Administrator",
  "module": "Events",
  "name": "Program",
