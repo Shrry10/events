@@ -15,7 +15,9 @@
   "extra_details_section",
   "designation",
   "column_break_vxtt",
-  "company"
+  "company",
+  "social_media_details_section",
+  "social_media_links"
  ],
  "fields": [
   {
@@ -77,13 +79,24 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Featured?"
+  },
+  {
+   "fieldname": "social_media_details_section",
+   "fieldtype": "Section Break",
+   "label": "Social Media Details"
+  },
+  {
+   "fieldname": "social_media_links",
+   "fieldtype": "Table",
+   "label": "Social Media Links",
+   "options": "Social Media Link"
   }
  ],
  "grid_page_length": 50,
  "image_field": "display_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-29 16:32:54.550284",
+ "modified": "2025-07-29 19:33:14.089442",
  "modified_by": "Administrator",
  "module": "Events",
  "name": "Speaker Profile",
