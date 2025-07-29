@@ -1,0 +1,64 @@
+{
+ "app": "events",
+ "charts": [],
+ "content": "[{\"id\":\"2hO9rJsy7M\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Events</span>\",\"col\":12}},{\"id\":\"LeXotigynf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create New Program\",\"col\":4}},{\"id\":\"YhH2_xNTT9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Programs\",\"col\":4}},{\"id\":\"49SsdTQD0c\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hosts\",\"col\":4}},{\"id\":\"D74256HxDe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZG1ETNegvw\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Programs This Month\",\"col\":4}}]",
+ "creation": "2025-07-29 17:16:31.018115",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "calendar",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Events",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-07-29 17:24:42.252367",
+ "modified_by": "Administrator",
+ "module": "Events",
+ "name": "Events",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Program",
+   "label": "Programs This Month",
+   "quick_list_filter": "[[\"Program\",\"start_date\",\"Timespan\",\"this month\",false]]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create New Program",
+   "link_to": "Program",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Hosts",
+   "link_to": "Program Host",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Published",
+   "label": "Programs",
+   "link_to": "Program",
+   "stats_filter": "[[\"Program\",\"is_published\",\"=\",1,false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Events",
+ "type": "Workspace"
+}
